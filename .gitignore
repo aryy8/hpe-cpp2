@@ -1,0 +1,16 @@
+# Data artifacts - regenerate with notebooks/fetch_month_cache.py + run_pipeline_local.py
+data/
+*.parquet
+
+# Credentials (b2_public_creds.py resolves these at runtime instead)
+.b2_drivestats
+.env
+
+# Caches
+.mplcache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
